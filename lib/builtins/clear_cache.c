@@ -83,7 +83,7 @@ uintptr_t GetCurrentProcess(void);
 #endif
 
 #if defined(__linux__) && defined(__arm__)
-  #include <asm/unistd.h>
+  #include <bits/syscall.h>
 #endif
 
 /*
